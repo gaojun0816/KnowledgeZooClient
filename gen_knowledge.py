@@ -49,7 +49,7 @@ def simplify(output):
             return '.'.join(parts)
 
     def remove_u(line):
-        if not line.startswith('\w'):
+        if line.startswith('{'):
             return None
         parts = line.split(' ', 1)
         if len(parts) == 1:

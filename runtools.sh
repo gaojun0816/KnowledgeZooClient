@@ -2,7 +2,7 @@
 APK=$1
 AAPT=$2
 
-ANDROINFO="androguard/androapkinfo.py"
+ANDROINFO="androapkinfo.py"
 
 # run aapt badging
 $AAPT dump badging $APK
